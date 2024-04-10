@@ -1,3 +1,4 @@
+import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
 import Image from "next/image";
 
@@ -7,6 +8,7 @@ export default function Home() {
       {/* <h1 className="text-white text-3xl bg-black text-center ">Checking...</h1> */}
 
       <HeroSection />
+      <FeaturedCourses />
     </main>
   );
 }
